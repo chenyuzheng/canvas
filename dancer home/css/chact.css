@@ -1,0 +1,258 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+main{
+	width: 1214px;
+	height: 100%;
+	margin: 0 auto;
+}
+/*头部*/
+header{
+	width: 100%;
+	height: 74px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 10;
+	background: rgba(255,255,255,0.8);
+}
+.header-left{
+	margin-top: 10px;
+	width: 180px;
+	height: 50px;
+	background: url(../img/2aa6514e6aee51a41a4bb469d3218d85f63d149666b3-DzmA8M_fw658.png) no-repeat center center;
+	background-size: cover;
+	float: left;
+}
+.header-right{
+	width: 570px;
+	height: 100%;
+	float: right;
+	display: flex;
+	justify-content: space-between;
+}
+.header-right li{
+	font-size: 18px;
+	line-height: 74px;
+}
+.header-right li:nth-child(4) a{
+	font-size:22px;
+	color:#CD82FF;
+}
+.header-right li a{
+	color: #aaaaaa;
+}
+.header-right li a:hover{
+	color: #cd82ff;
+}
+.chact{
+	width: 100%;
+	height: 900px;
+	margin-top: 100px;
+	background:#f5f5f5;
+	overflow: hidden;
+	perspective: 1500px;
+}
+.top{
+	width: 100%;
+	height: 400px;
+	padding-top: 80px;
+	overflow: hidden;
+	font-family: '苹方';
+}
+.one{
+	margin-left: 0px;
+	margin-top: -7px;
+	float: left;
+	width: 385px;
+	height: 375px;
+	padding: 10px;
+	background: url(../img/7fb73872gw1f6k1yrbqs7j20qo0qoacx.jpg) no-repeat center center;
+	background-size: cover;
+	border-radius: 30px;
+	box-sizing: border-box;
+	position: relative;
+	
+}
+.zhe{
+	position: absolute;
+	top:10px;
+	left: 10px;
+	width: 95%;
+	height: 95%;
+	background: rgba(255,255,255,0.9);
+	padding: 0 10px;
+	border-radius: 30px;
+	box-sizing: border-box;
+	opacity: 0;
+	transition: 2s;
+	transform-style: preserve-3d;
+	transform-origin: 0 0;
+	transform: rotateY(90deg);
+}
+.zhe1{
+	position: absolute;
+	top:10px;
+	left: 10px;
+	width: 95%;
+	height: 95%;
+	background: rgba(0,0,0,0.8);
+	padding: 0 10px;
+	border-radius: 30px;
+	box-sizing: border-box;
+	transition: 1s;
+	transform-style: preserve-3d;
+	transform-origin: 100% 0;
+}
+.zhe11{
+	width: 200px;
+	height: 200px;
+	border: 1px solid #fff;
+	margin-top: 80px;
+	margin-left: 78px;
+	border-radius: 50%;
+	color:#fff;
+	line-height: 200px;
+	text-align: center;
+	font-size: 30px;
+	cursor: pointer;
+	
+}
+.zhe11:hover{
+	background: #fff;
+	color:black;
+}
+h3{
+	font-size: 20px;
+	line-height: 30px;	
+	color: #404040;
+}
+.one1{
+	font-size: 18px;
+	line-height: 30px;
+	width: 350px;
+}
+.chact .one2{
+	width: 300px;
+	height: 30px;
+	display: block;
+	border: 1px solid #cd82ff;
+	line-height: 30px;
+	color:#cd82ff;
+	font-size: 20px;
+	text-align: center;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+.chact .one2:hover{
+	color: #fff;
+	background: #cd82ff;
+}
+.login:hover{
+	color: #fff;
+	background: #cd82ff;
+}
+.two{
+	margin-left: 25px;
+	float: left;
+	width: 345px;
+	height: 338px;
+	padding: 100px 20px;
+	position: relative;
+	overflow: hidden;
+}
+.login{
+	margin-top: 30px;
+	width: 100px;
+	height: 30px;
+	border: none;
+	border-radius: 10px;
+	outline: none;
+	border: 1px solid #cd82ff;
+	display: block;
+	text-align: center;
+	line-height: 30px;
+	margin-left: 20px;
+	float: left;
+}
+h2{
+	font-size: 30px;
+	line-height: 50px;
+}
+.three{
+	margin-top: -2px;
+	margin-left: 20px;
+	float: left;
+	width: 378px;
+	height: 361px;
+	padding: 10px;
+	overflow: hidden;
+	background: url(../img/QQ图片20170918171342.jpg) no-repeat center center;
+	background-size: cover;
+	border-radius: 30px;
+	box-sizing: border-box;
+	position: relative;
+}
+.four{
+	margin-left: 209px;
+	width: 381px;
+	float: left;
+	height: 367px;
+	padding: 10px;
+	overflow: hidden;
+	background: url(../img/7fb73872ly1fj4s5mizhlj20qo140wi6.jpg) no-repeat center center;
+	background-size: cover;
+	font-family: '苹方';
+	border-radius: 30px;
+	box-sizing: border-box;
+	position: relative;
+}
+.five{
+	margin-left: 31px;
+	width: 378px;
+	float: left;
+	height: 367px;
+	padding: 10px;
+	overflow: hidden;
+	background: url(../img/timg.jpg) no-repeat center center;
+	background-size: cover;
+	font-family: '苹方';
+	border-radius: 30px;
+	box-sizing: border-box;
+	position: relative;
+}
+footer{
+	width:100%;
+	height: 260px;
+	background: #F7F7F7;
+	padding-top: 50px;
+}
+.wechat{
+	width: 100px;
+	height: 100px;
+	background: url(../img/Screenshot_2017-09-04-23-43-34-411_com.tencent.mm_03.png) no-repeat center center;
+	background-size: cover;
+	display: block;
+	margin-left: 550px;
+}
+.lc{
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	font-size: 20px;
+	text-align: center;
+	margin-top: 30px;
+	color: #cd82ff;
+}
+.banquan{
+	margin-top: 0;
+}
+.banquan1{
+	margin-top: 0;
+	color: black;
+}
