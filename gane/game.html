@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="css/game.css"/>
+		<title></title>
+	</head>
+	<body>
+		<div class="img">
+			<button class="begin">开始游戏</button>
+		<h1>
+			第<span class="big">1</span>关
+		</h1>
+		<h3>
+			生命：<progress min=0 max="10" value="10"></progress>
+		</h3>
+		<h3>
+			得分：<span class="form">0</span>
+		</h3>
+		<button class="stop">暂停</button>
+		<button class="continue">继续</button>
+		</div>
+		
+	</body>
+</html>
+<script src="js/function.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/game.js" type="text/javascript" charset="utf-8"></script>
+<!--属性
+		哪些字符    个数   速度  得分   关卡   生命    减分
+	方法
+		开始（产生字符）   消除   产生字符     下一关    重新开始
+-->
+<script type="text/javascript">
+	let button1=document.querySelector('.begin');
+	button1.onclick=function(){
+		this.style.display='none';
+		let game1=new game();
+		game1.start();
+	}
+	
+</script>
