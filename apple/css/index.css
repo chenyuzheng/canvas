@@ -1,0 +1,532 @@
+/*
+* @Author: dell-pc
+* @Date:   2017-07-24 18:40:20
+* @Last Modified by:   dell-pc
+* @Last Modified time: 2017-08-27 18:00:17
+*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	 font-family: '微软雅黑';
+}
+.big{
+	width: 100%;
+	height: 40px;
+	background: rgba(0, 0, 0, 0.8);
+	overflow: hidden;
+}
+.small{
+	width: 100%;
+	height: 40px;
+	background: rgba(0, 0, 0, 0.8);
+	overflow: hidden;
+}
+.bignav{
+	max-width: 950px;
+	height: 100%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	padding: 0 5px;
+}
+.bignav li{
+	font-size: 16px;
+	line-height: 40px;
+}
+.bignav li a{
+	color: #fff;
+}
+.iconfont{
+	font-family: 'iconfont';
+	color: #fff;
+}
+.bignav li a:hover{
+	color: #979797;
+}
+.smallnav{
+	max-width: 950px;
+	height: 100%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	padding: 0 5px;
+}
+.smallnav li{
+	font-size: 16px;
+	line-height: 40px;
+}
+.smallnav li a{
+	color: #fff;
+}
+.smallnav li a:hover{
+	color: #979797;
+}
+.small{
+	display: none;
+}
+.big{
+	display: block;
+}
+@media screen and (max-width: 780px) {
+	.small{
+		display: block;
+	}
+	.big{
+		display: none;
+	}
+}
+.big1{
+	width: 100%;
+	height: auto;
+	background: #fff;
+	overflow: hidden;
+}
+.big1 li{
+	width: 25%;
+	height: 270px;
+	float: left;
+	border-bottom: 1px solid #fff;
+	border-right: 1px solid #fff;
+	background: #000;
+	box-sizing: border-box;
+    position: relative;	
+}
+.big1 li:last-child{
+	border-right: none;
+}
+.big11{
+	width: 100%;
+	height: 100%;
+	display: block;
+	background-image: url('../img/bts_beats_mac_large.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}	
+.big12{
+	width: 100%;
+	height: 100%;
+	display: block;
+	background-image: url('../img/imac_large.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}	
+.big13{
+	width: 100%;
+	height: 100%;
+	display: block;
+	background-image: url('../img/summer_casual_large.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}	
+.big14{
+	width: 100%;
+	height: 100%;
+	display: block;
+	background-image: url('../img/why_switch_large.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}	
+@media screen and (max-width:992px ) {
+	.big1 li{
+		width: 50%;
+	}
+	.big1 li:nth-child(2n){
+		border-right: none;
+	}
+}
+@media screen and (max-width:750px ) {
+	.big1 li{
+		width: 100%;
+		border-right: none;
+	}	
+}		
+.big111{
+	width: 85%;
+	display: block;
+	font-size: 19px;
+	color: #111;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	top: 20px;
+	text-align: center;
+	font-weight: bold;
+}
+.big121{
+	font-size: 19px;
+	color: #111;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	top: 20px;
+	text-align: center;
+	font-weight: bold;
+}
+.big122{
+	font-size: 16px;
+	color: #111;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	top: 50px;
+	text-align: center;
+}
+.banner{
+	width: 100%;
+	height: 500px;	
+	position: relative;
+	overflow: hidden;
+}
+.banner1-1{
+	width: 100%;
+	height: 500px;
+}
+.banner1-1 li{
+	width: 100%;
+	height: 500px;
+	position: absolute;
+	left: 100%;
+	top: 0;
+}
+.banner1-1 li:first-child{
+	left: 0;
+}
+.banner-img{
+	width: 100%;
+	height: 100%;
+	display: block;
+	background: url('../img/QQ20170724224404.jpg') no-repeat center center;
+	background-size: cover;
+}
+.img1{
+	background: url('../img/banner3.png') no-repeat center center;
+}
+.img2{
+	background: url('../img/banner4.png') no-repeat center center;
+}
+.banner1{
+	height: 20px;
+	font-weight: bold;
+	font-size: 20px;
+	color: #fff;
+	line-height: 20px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	top: 100px;
+	text-align: center;
+
+}
+.banner2{
+	height: 30px;
+	font-weight: bold;
+	font-size: 30px;
+	color: #fff;
+	line-height: 30px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	top: 130px;
+	text-align: center;
+}
+.banner3{
+	color: #333333;
+}
+.lunbo{
+	width: 214px;
+	height: 2px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	bottom: 20px;
+	display: flex;
+	justify-content: space-between;
+}
+.lunbo li{
+	width: 62px;
+	height: 2px;
+	background: #dcdcdc;
+	cursor: pointer;
+	/* margin-right: 13px; */
+}
+.quan11{
+	width: 265px;
+	height: 100%;
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0);
+
+}
+.quan1{
+	width: 60px;
+	height: 60px;
+	background: #000;
+	opacity: 0;
+	top: 0;
+	bottom: 0;
+	cursor: pointer;
+	margin-top: auto;
+	margin-bottom: auto;
+    left: 10px;
+    font-size: 20px;
+    transition: 0.5s;
+    text-align: center;
+    position: absolute;
+    line-height: 60px;
+    border-radius: 50%;
+    color: gray;
+    font-family: 'iconfont';
+}
+.quan11:hover .quan1{
+   opacity: 0.6;
+}
+.quan12{
+	width: 265px;
+	height: 100%;
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	background: rgba(0, 0, 0, 0);
+
+}
+.quan2{
+	width: 60px;
+	height: 60px;
+	display: block;
+	position: absolute;
+	background: #000;
+	opacity: 0;
+	top: 0;
+	bottom: 0;
+	margin-top: auto;
+	margin-bottom: auto;
+   right: 10px;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    font-family: 'iconfont';
+    line-height: 60px;
+    border-radius: 50%;
+    transition: 0.5s;
+    color: gray;
+}
+.quan12:hover .quan2{
+   opacity:0.6;
+}
+@media screen and (max-width: 780px) {
+	.lunbo1{
+		display: none;
+	}
+}
+footer{
+	width: 100%;
+	height: 500px;
+	background: #f2f2f2;
+	/* overflow: hidden; */
+}
+.footer1{
+	max-width: 950px;
+	height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-bottom: 40px;
+    padding-left: 10px;
+}
+.footer1>li{
+    width: 20%;
+    height: auto;
+    float: left;
+}
+.footer1>li>h3{
+   font-size: 14px;
+   font-family: '微软雅黑';
+   color: #333;
+   padding-top: 20px;
+
+}
+.footer1>li>ol>li{
+	font-size: 12px;
+	line-height: 12px;
+	padding-top: 8px;
+	font-family: '微软雅黑';
+
+}
+.footer1>li>ol>li:last-child{
+	padding-bottom: 2px;
+}
+.footer1>li>ol>li>a{
+	color: #636363;
+}
+.footer1>li>ol>li>a:hover{
+	border-bottom: 1px solid #333;
+	color: #333;
+}
+.word{
+	width:100%;
+	height: 17px;
+	font-size: 12px;
+	color: #888;
+	line-height: 17px;
+	padding-bottom: 6px;
+	margin-bottom: 7px;
+	border-bottom: 1px solid #d6d6d6;
+}
+.word a{
+	color: #0070C9;
+}
+.box1{
+	width: 100%;
+	height: 17px;
+}
+.word1{
+	font-size: 12px;
+	color: #888;
+	line-height: 17px;
+	float: left;
+	margin-right: 40px;
+}
+.word a:hover{
+	border-bottom: 1px solid #0070C9;
+}
+.box11{
+	height: 20px;
+	float: left;
+}
+.box111{
+	height: 17px;
+	display: block;
+	padding-top: 2px;
+	padding-right: 12px;
+	margin-right: 10px;
+	border-right: 1px solid #d6d6d6;
+	float: left;
+	font-size: 12px;
+	line-height: 17px;
+	color: #888;
+}
+.box111:hover{
+	border-bottom: 1px solid #333;
+	color: #333;
+}
+.box12{
+	height: 17px;
+	float: right;
+}
+.box121{
+	width: 16px;
+	height: 16px;
+	display: block;
+	background: url('../img/16.png') no-repeat center center;
+	background-size: 16px 16px;
+	margin-top: 1px;
+	float: left;
+	margin-right: 6px;
+}
+.box122{
+	border-right: none;
+	margin-right: 0;
+}
+.footer2{
+	margin: 0 auto;
+	max-width: 750px;
+	height: auto;
+	padding-left: 10px;
+	margin-bottom: 40px;
+	overflow: hidden;
+}
+.footer2>li{
+	width: 100%;
+	height: 48px;
+	border-bottom: 1px solid #d6d6d6;
+}
+.footer2>li>a{
+	width: 100%;
+	height: 48px;
+	display: block;
+}
+.footer2>li>a>h3{
+	font-size: 14px;
+	line-height: 48px;
+	color: #333;
+}
+.jia{
+	float: right;
+	font-size: 14px;
+	margin-right: 8px;
+	line-height: 48px;
+}
+.footer2>li>a>h3:hover .jia{
+	transform: rotate(90deg);
+	transition: all 0.6s;
+}
+.footer2>li>a>h3:hover{
+	color: #000;
+}
+.footer2{
+	display: none;
+	}
+.footer1{
+	display: block;
+}
+.small-box{
+	display: none;
+	}
+.big-box{
+	display: block;
+}
+@media screen and (max-width: 750px) {
+	.footer2{
+		display: block;
+	}
+	.footer1{
+		display: none;
+	}
+	.small-box{
+	display: block;
+	}
+.big-box{
+	display: none;
+}
+}
+.big-box{
+	max-width: 950px;
+	height: auto;
+	margin: 0 auto;
+	padding-left: 10px;
+}
+.small-box{
+	max-width: 950px;
+	height: auto;
+	margin: 0 auto;
+	padding-left: 10px;
+}
+.box13{
+	float: none;
+}
+.box14{
+	float: none;
+}
+.word11{
+	border-bottom: none;
+}
