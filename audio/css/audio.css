@@ -1,0 +1,173 @@
+*{
+	margin:0;
+	padding: 0;
+	list-style: none;
+	font-family: 'sans-serif';
+}
+html,body{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+body{
+	background: url('../img/100476251.jpg') center/cover;	
+}
+.zhezhao{
+	width: 100%;
+	height: 100%;
+	background: rgba(255,255,255,0.4);
+}
+main{
+	width: 600px;
+	height: 600px;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 20px;
+	z-index: 10;
+}
+.song{
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 40px;	
+}
+.singer{
+	color: #000;
+	font-size: 20px;
+	line-height: 30px;
+}
+.list{
+	height: 400px;
+	overflow: hidden;
+	color: #000;
+	font-size: 20px;
+	line-height: 35px;
+}
+.bottom{
+	position: absolute;
+	bottom: 0;
+	width: 1000px;
+	left: 50%;
+	margin-left: -500px;
+	height: 100px;
+	background: rgba(255,255,255,0.4);
+}
+.left{
+	width: 100px;
+	height: 100%;
+	padding: 10px 10px;
+	box-sizing: border-box;
+	float: left;
+}
+.img{
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+}
+img{
+	width:90px;
+	height: 90px;
+	border-radius: 50%;
+	transition:all ease 300s;
+}
+.middle{
+	width: 700px;
+	height: 100%;
+	float: left;
+	position: relative;
+}
+.volume{
+	position: absolute;
+	right: 20px;
+	top: 0;
+	width: 130px;
+	height: 100%;
+	z-index: 500;
+}
+
+.volumeb{
+	width: 80px;
+	height: 10px;
+	border: 1px solid #333333;
+	box-sizing: border-box;
+	margin-top:45px;
+	float: left;
+	position: relative;
+}
+.volumec{
+	width: 0;
+	height: 8px;
+	background: #63A35C;
+}
+.volumecc{
+	width: 16px;
+	height: 16px;
+	background: #63A35C;
+	border-radius: 50%;
+	position: absolute;
+	top:-4px;
+	left: -10px;
+}
+.jindu{
+	width: 500px;
+	height: 4px;
+	border: 1px solid #333333;
+	box-sizing: border-box;
+	margin-top: 40px;
+	position: relative;
+	left: 40px;
+}
+.jindutiao{
+	width: 0px;
+	height: 2px;
+	background: #63A35C;
+}
+.info{
+	width: 500px;
+	height: 30px;
+	margin-left: 40px;
+	margin-top: 10px;
+}
+.xinxi{
+	font-size: 18px;
+	line-height: 30px;
+	color: #000000;
+	float: left;
+}
+.time{
+	float: right;
+}
+.circle{
+	width: 10px;
+	height: 10px;
+	background: #63A35C;
+	border-radius: 50%;
+	position: absolute;
+	top:-4px;
+	left: -2px;
+}
+.right{
+	width: 200px;
+	height: 100%;
+	float: left;
+}
+.iconfont{
+	font-family: 'iconfont';
+	font-size: 40px;
+	line-height: 100px;
+	float: left;
+	margin-right: 20px;
+}
+.icon-shangyishou{
+	margin-left: 10px;
+}
+.icon-bofang{
+	font-size: 50px;
+}
+.icon-zanting{
+	font-size: 50px;
+}
+.icon-shengyin{
+	font-size: 20px;
+	float: left;
+	margin-right: 10;
+}
